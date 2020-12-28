@@ -10,7 +10,7 @@ namespace ExercicioEnumComp.Entities
         public string Name { get; set; }
         private WorkerLevel Level { get; }
         private double BaseSalary { get; }
-        private Department Department { get; }
+        public Department Department { get; }
         private List<HourContract> Contracts { get; } = new List<HourContract>();
 
         public Worker() { }
